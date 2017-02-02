@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>List of Memes</title>
+		<meta name="description" content="A website made to educate average people about the magic of memes">
+		<meta name="author" content="CTEJordanC32">
+		<meta name="application-name" content="The Meme Project">
+		<meta name="keywords" content="memes, meme, meme list, list, of, list of, list of memes, of memes, list of meme, meme list, project, The meme project">
+		<meta name="theme-color" content="#0099FF">
+		<link rel="shortcut icon" href="img/icon.ico">
+		<link rel="stylesheet" href="style.css">
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+		<!-- Imbedded Stylesheet -->
+		<style>
+			.container {
+				position: relative;
+				width: 25%;
+				margin: auto;
+				margin-top: 2.5%;
+			}
+
+			.image {
+				display: block;
+				width: 50%;
+				height: auto;
+				margin: auto;
+				margin-top: 2.5%;
+				box-shadow: 4px 4px 4px #999999;
+			}
+
+			.overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 50%;
+				opacity: 0;
+				transition: .5s ease;
+				background-color: #009933;
+				margin: auto;
+			}
+
+			.container:hover .overlay {
+				opacity: 1;
+			}
+
+			.text {
+				color: white;
+				font-family: 'Roboto', sans-serif;
+				font-size: 2em;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+			}
+		</style>
+	</head>
+	
+	<body>
+
+		<!-- Header -->
+		<div id="website_header">
+			<header>
+				<h1>The Meme Project</h1>
+			</header>
+		</div>
+		
+		<!-- Top Navigation -->
+		<div id="top_nav">
+			<nav>
+				<ul class="top-selector">
+					<li><a href="index.html" accesskey="q" title="Return to the Home Page" tabindex="0">Home</a></li>
+					<li><a href="memelist.html" accesskey="w" title="The list of memes" tabindex="1">Meme List</a></li>
+					<li><a href="#" accesskey="e" title="All about the website" tabindex="2">About</a></li>
+					<li><a href="#" accesskey="r" title="Ways to contact us" tabindex="3">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<!-- Main Body -->
+		<div id="main-text">
+			<div class="container">
+				<a href="pepe.html">
+					<img src="img/pepe_01.jpg" alt="Pepe" class="image">
+					<div class="overlay">
+	    				<div class="text">Pepe The Frog</div>
+	  				</div>
+  				</a>
+			</div>
+
+			<div class="container">
+				<img src="img/vaporwave_01.jpg" alt="Vaporwave" class="image">
+				<div class="overlay" style="background-color: #FF99FF;">
+    				<div class="text">Vapor wave</div>
+  				</div>
+			</div>
+
+			<div class="container">
+				<img src="img/illuminati_01.jpg" alt="Illuminati" class="image">
+				<div class="overlay" style="background-color: #00802B;">
+    				<div class="text">Illuminati</div>
+  				</div>
+			</div>
+
+			<div class="container">
+				<img src="img/foolish_01.png" alt="FACCE" class="image">
+				<div class="overlay" style="background-color: #003399;">
+    				<div class="text" style="margin-bottom: 12%">FACCE</div>
+  				</div>
+			</div>
+
+
+
+		</div>
+		
+		
+		<!-- Footer -->
+		<div id="footer-main">
+			<footer>
+				<nav id="footernav">
+					<ul class="footerlinks">
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Send feedback</a></li>
+						<li><a href="#">Copyright</a></li>
+						<li><a href="#">Sponsors</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+	</body>
+</html>
